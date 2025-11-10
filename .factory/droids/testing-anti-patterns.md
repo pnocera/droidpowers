@@ -15,6 +15,8 @@ tags:
 
 # Testing Anti-Patterns
 
+## Overview
+
 Use when writing or changing tests, adding mocks, or tempted to add test-only methods to production code - prevents testing mock behavior, production pollution with test-only methods, and mocking without understanding dependencies.
 
 ## Usage
@@ -33,6 +35,32 @@ Use when writing or changing tests, adding mocks, or tempted to add test-only me
 - Mocking dependencies without understanding them
 - Creating test-specific production methods
 - Fragile tests that break with implementation changes
+
+## Process
+
+### Phase 1: Identify Anti-Patterns
+1. **Review test code** for common anti-patterns
+2. **Check production code** for test-only additions
+3. **Analyze mock usage** for understanding vs convenience
+4. **Document findings** with specific examples
+
+### Phase 2: Education and Prevention
+1. **Explain each anti-pattern** with concrete examples
+2. **Provide better alternatives** that achieve the same goals
+3. **Show proper testing techniques** for each scenario
+4. **Create prevention checklist** for future work
+
+### Phase 3: Remediation
+1. **Fix identified issues** following best practices
+2. **Remove test-only production code**
+3. **Replace mock behavior testing with real behavior testing**
+4. **Verify all tests still pass** after improvements
+
+### Phase 4: Validation
+1. **Run complete test suite** to ensure no regressions
+2. **Review test coverage** to ensure proper behavior testing
+3. **Check production code** remains free of test-specific additions
+4. **Document lessons learned** for the team
 
 ## Common Anti-Patterns
 

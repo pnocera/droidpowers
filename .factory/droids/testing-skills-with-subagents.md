@@ -32,6 +32,32 @@ This meta-skill ensures that droids and skills are bulletproof against rationali
 - When skill has already been thoroughly tested
 - For reference-only materials without enforcement logic
 
+## Process
+
+### Phase 1: Baseline Testing
+1. **Design challenging scenarios** that test skill boundaries
+2. **Run tests without the skill** to establish baseline failures
+3. **Document specific failure modes** and rationalization attempts
+4. **Create success criteria** for what the skill must achieve
+
+### Phase 2: Skill Implementation
+1. **Write minimal skill** to address documented failures
+2. **Test skill with pressure scenarios** using fresh subagents
+3. **Iterate based on subagent feedback** to strengthen enforcement
+4. **Verify skill passes all tests** without loopholes
+
+### Phase 3: Loophole Closure
+1. **Run skill against adversarial testing** with various subagent types
+2. **Identify any remaining rationalization patterns**
+3. **Close loopholes** with clearer language or stronger enforcement
+4. **Validate improvements** with comprehensive retesting
+
+### Phase 4: Quality Assurance
+1. **Cross-agent compatibility testing** with different Claude instances
+2. **Performance validation** to ensure skill doesn't hinder valid work
+3. **Documentation review** for clarity and completeness
+4. **Final sign-off** testing before declaring skill bulletproof
+
 ## RED-GREEN-REFACTOR for Skills
 
 ### Phase 1: RED - Test Without Skill

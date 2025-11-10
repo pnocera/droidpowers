@@ -38,6 +38,38 @@ Need to share skill with community?
 - You haven't validated the skill works
 - Looking for quick contribution shortcuts
 
+## Process
+
+### Phase 1: Preparation and Validation
+1. **Verify skill completeness** with comprehensive testing
+2. **Validate community benefit** and broad applicability
+3. **Ensure quality standards** meet project requirements
+4. **Document skill thoroughly** with examples and integration points
+
+### Phase 2: Repository Setup
+1. **Create isolated feature branch** for contribution work
+2. **Verify clean working state** with no unrelated changes
+3. **Set up proper attribution** and contribution documentation
+4. **Prepare skill files** for upstream submission
+
+### Phase 3: Contribution Operations
+1. **Stage and commit skill changes** with clear commit messages
+2. **Push to remote repository** with proper branch tracking
+3. **Create pull request** with comprehensive description
+4. **Fill contribution forms** with required project information
+
+### Phase 4: Community Engagement
+1. **Monitor pull request** for feedback and questions
+2. **Respond to reviews** promptly and professionally
+3. **Address suggested changes** based on maintainer feedback
+4. **Iterate on improvements** until acceptance criteria met
+
+### Phase 5: Integration and Cleanup
+1. **Assist with integration** testing and validation
+2. **Update documentation** as requested by maintainers
+3. **Celebrate contribution** and community engagement
+4. **Clean up working branch** and return to main development
+
 ## Contribution Process
 
 ### Phase 1: Preparation
