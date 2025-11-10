@@ -1,0 +1,69 @@
+# Project Skills Configuration
+
+## Project Overview
+**Project Type:** [React/Node.js/Python/etc]
+**Primary Language:** [JavaScript/TypeScript/Python/etc]
+**Build System:** [npm/yarn/pip/etc]
+
+## Mandatory Skills
+- **test-driven-development**: All feature implementation and bug fixes
+- **verification-before-completion**: Before any commits or pull requests
+- **systematic-debugging**: For any bug investigation or unexpected behavior
+
+## Recommended Skills
+- **brainstorming**: For new features, architecture changes, complex implementations
+- **writing-plans**: For multi-step tasks and major features
+- **code-reviewer**: After completing significant work items
+- **using-git-worktrees**: For feature development and experimental work
+
+## Workflow Rules
+1. **Always check skill-checker** before starting any task
+2. **Use indicated skills** for corresponding work types  
+3. **Complete all checklists** before proceeding to next step
+4. **Validate completion** before marking work as done
+5. **Document designs** before implementation
+
+## Build Commands
+```bash
+# Install dependencies
+[install-command]
+
+# Run tests
+[test-command]
+
+# Build project
+[build-command]
+
+# Lint code
+[lint-command]
+```
+
+## Architecture
+### Directory Structure
+```
+[describe key directories and their purposes]
+```
+
+### Key Components
+- [Component 1]: [purpose and location]
+- [Component 2]: [purpose and location]
+- [Component 3]: [purpose and location]
+
+## Testing Strategy
+- **Unit Tests:** [location and framework]
+- **Integration Tests:** [location and framework]  
+- **End-to-End Tests:** [location and framework]
+- **Coverage Target:** [percentage or requirement]
+
+## Development Workflow
+1. Create feature branch from main
+2. Use test-driven-development for implementation
+3. Run verification-before-completion before commits
+4. Create pull request with code-reviewer
+5. Address feedback and iterate
+
+## Team Conventions
+- **Commit Format:** [conventional commits or other format]
+- **Branch Naming:** [pattern for feature branches]
+- **Code Style:** [linter config, formatting rules]
+- **Documentation:** [where and how to document]
