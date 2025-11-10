@@ -59,13 +59,37 @@ All commands should be run from the project root.
 - **verification-before-completion**: `/droid verification-before-completion` or `/verify` before commits
 - **systematic-debugging**: `/droid systematic-debugging` or `/debug` for bug investigation
 
-### Context-Specific Skills
+### Planning & Execution Skills
 - **brainstorming**: `/droid brainstorming` or `/brainstorm` for new features/architecture
-- **condition-based-waiting**: `/droid condition-based-waiting` for test timing issues
-- **defense-in-depth**: `/droid defense-in-depth` for validation/security
 - **writing-plans**: `/droid writing-plans` or `/plan` for complex implementations
+- **executing-plans**: `/droid executing-plans` or `/execute` for batch execution with checkpoints
+
+### Code Review & Collaboration
 - **requesting-code-review**: `/droid requesting-code-review` or `/review` for PR coordination
+- **receiving-code-review**: `/droid receiving-code-review` or `/handle-review` for technical feedback evaluation
+- **finishing-a-development-branch**: `/droid finishing-a-development-branch` or `/finish-branch` for branch completion
+
+### Advanced Debugging Skills
+- **condition-based-waiting**: `/droid condition-based-waiting` or `/condition-wait` for test timing issues
+- **defense-in-depth**: `/droid defense-in-depth` or `/defense-in-depth` for multi-layer validation
+- **root-cause-tracing**: `/droid root-cause-tracing` for backward bug investigation
+- **dispatching-parallel-agents**: `/droid dispatching-parallel-agents` or `/parallel` for concurrent debugging
+
+### Development Workflow Skills
 - **using-git-worktrees**: `/droid using-git-worktrees` or `/worktree` for isolated development
+- **subagent-driven-development**: `/droid subagent-driven-development` or `/subdev` for parallel task execution
+
+### Testing & Quality Skills
+- **testing-anti-patterns**: `/droid testing-anti-patterns` or `/anti-patterns` for test quality
+- **testing-skills-with-subagents**: `/droid testing-skills-with-subagents` or `/test-skills` for skill validation
+
+### Meta-Skills
+- **writing-skills**: `/droid writing-skills` or `/write-droid` for creating new skills
+- **sharing-skills**: `/droid sharing-skills` or `/share` for contributing upstream
+
+### Gateway Skills (Mandatory)
+- **using-droids**: `/droid using-droids` or `/droids` - ALWAYS start here for task analysis
+- **skill-checker**: `/droid skill-checker` - Automatic routing to applicable droids
 
 ### Workflow Rules
 1. **ALWAYS** run `/droid using-droids` first for task analysis
