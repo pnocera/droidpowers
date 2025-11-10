@@ -1,68 +1,48 @@
-![Droidpowers Overview](assets/droidpowers.jpg)
+# Droidpowers CLI
 
-Complete Factory AI adaptation of the superpowers skills system with 100% feature parity and enhanced discoverability.
+Install Droidpowers Factory AI skills system in any project with a single command.
 
 ## Quick Start
 
-1. Copy `.factory/` contents to your project
-2. Copy `AGENTS.md.template` to `AGENTS.md` and customize
-3. Start using `/droid skill-checker` before any task
-4. Follow mandatory workflows automatically
+```bash
+npx droidpowers
+```
 
-## Available Droids (21 Total)
+That's it! The `.factory/` directory and template files will be copied to your project.
 
-### Mandatory Gateway
-- `/droid using-droids` - **ALWAYS run first** for task analysis
-- `/droid skill-checker` - Automatic droid discovery and routing
+## What Gets Installed
 
-### Core Skills (Essential for all projects)
-- `/droid test-driven-development` - Strict TDD with RED-GREEN-REFACTOR
-- `/droid systematic-debugging` - Four-phase bug investigation
-- `/droid brainstorming` - Collaborative design refinement  
-- `/droid verification-before-completion` - Pre-commit validation
-- `/droid writing-skills` - TDD for droid creation
+- **`.factory/`** - Complete Factory AI integration with 21 specialized droids
+- **`AGENTS.md.template`** - Project configuration template
+- **`DSM_README.md`** - Droidpowers-specific documentation
 
-### Advanced Skills (13 specialized workflows)
-- `/droid condition-based-waiting` - Fix flaky tests
-- `/droid defense-in-depth` - Multi-layer validation
-- `/droid writing-plans` - Comprehensive planning
-- `/droid executing-plans` - Batch task execution
-- `/droid requesting-code-review` - Code review coordination
-- `/droid receiving-code-review` - Technical feedback evaluation
-- `/droid using-git-worktrees` - Isolated development
-- `/droid subagent-driven-development` - Parallel task execution
-- `/droid root-cause-tracing` - Deep error backward tracing
-- `/droid finishing-a-development-branch` - Integration completion workflow
-- `/droid dispatching-parallel-agents` - Concurrent failure investigation
-- `/droid testing-anti-patterns` - Prevent testing mistakes
-- `/droid testing-skills-with-subagents` - Validate skills via RED-GREEN-REFACTOR
-- `/droid sharing-skills` - Contribute skills upstream
+## Options
 
-## Quick Commands
+```bash
+npx droidpowers --force    # Overwrite existing .factory directory
+npx droidpowers --help     # Show help
+npx droidpowers --version  # Show version
+```
 
-All commands have corresponding slash commands:
-- `/tdd` - Start TDD workflow
-- `/debug` - Begin systematic debugging  
-- `/brainstorm` - Design refinement
-- `/verify` - Pre-commit validation
-- `/plan` - Create implementation plan
-- `/execute` - Execute planned tasks
-- `/review` - Request code review
-- `/handle-review` - Evaluate feedback
-- `/worktree` - Git worktree management
-- `/subdev` - Parallel development
-- `/condition-wait` - Fix flaky tests
-- `/defense-in-depth` - Robust validation
-- `/write-droid` - Create new droids
-- `/droids` - Learn droid usage
-- `/root-cause-tracing` - Deep error backward tracing
-- `/finish-branch` - Complete development branch integration
-- `/parallel` - Dispatch parallel agents for independent failures
-- `/anti-patterns` - Prevent testing anti-patterns
-- `/test-skills` - Validate skills with subagents
-- `/share` - Contribute skills upstream
+## Next Steps
 
-## Project Configuration
-- `AGENTS.md` - Project-specific droid recommendations
-- `AGENTS.md.template` - Template for new projects
-- `.factory/` - All droids and commands for Factory AI
+1. Copy `AGENTS.md.template` to `AGENTS.md` and customize for your project
+2. Start any task with `/droid using-droids`
+3. Use `/droid skill-checker` for automatic droid routing
+
+## Available Droids
+
+- **test-driven-development** - Strict TDD workflow
+- **systematic-debugging** - Four-phase bug investigation
+- **brainstorming** - Collaborative design refinement
+- **verification-before-completion** - Pre-commit validation
+- And 17 more specialized workflows
+
+## Requirements
+
+- Node.js >= 14.0.0
+- Works with any project (package.json or git repo recommended)
+
+## Learn More
+
+See [DSM_README.md](DSM_README.md) after installation for complete usage guide.
