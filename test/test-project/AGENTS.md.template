@@ -1,0 +1,151 @@
+# [Project Name]
+
+## Core Commands
+
+• Install dependencies: `[install-command]`
+• Type-check and lint: `[lint-command]` or use `[lint-fix-command]` to auto-fix
+• Run test suite: `[test-command]`
+• Run single test: `[single-test-command] <path>`
+• Start development: `[dev-command]`
+• Build for production: `[build-command]`
+
+## Architecture Overview
+
+This is a [brief project description].
+
+**Project Type:** [React/Node.js/Python/etc]  
+**Primary Language:** [JavaScript/TypeScript/Python/etc]  
+**Build System:** [npm/yarn/pip/etc]
+
+### Project Layout
+
+```
+[describe key directories]
+├─ [directory1] → [purpose]
+├─ [directory2] → [purpose]
+└─ [directory3] → [purpose]
+```
+
+### Key Components
+- **[Component 1]**: [location and purpose]
+- **[Component 2]**: [location and purpose]
+- **[Component 3]**: [location and purpose]
+
+## Build & Test
+
+All commands should be run from the project root.
+
+```bash
+# Development
+[install-command]          # Install all dependencies
+[dev-command]              # Start development server
+[test-command]             # Run full test suite
+[single-test-command]<path> # Run specific test file
+
+# Production
+[build-command]            # Build for production 
+[lint-command]             # Check code quality
+[lint-fix-command]         # Auto-fix style issues
+```
+
+## Droidpowers Integration
+
+### Mandatory Workflows
+**All tasks must start with:**
+`/droid using-droids` - Required first step for task analysis
+
+### Core Skills (Always Applicable)
+- **test-driven-development**: `/droid test-driven-development` or `/tdd` for any code implementation
+- **verification-before-completion**: `/droid verification-before-completion` or `/verify` before commits
+- **systematic-debugging**: `/droid systematic-debugging` or `/debug` for bug investigation
+
+### Planning & Execution Skills
+- **brainstorming**: `/droid brainstorming` or `/brainstorm` for new features/architecture
+- **writing-plans**: `/droid writing-plans` or `/plan` for complex implementations
+- **executing-plans**: `/droid executing-plans` or `/execute` for batch execution with checkpoints
+
+### Code Review & Collaboration
+- **requesting-code-review**: `/droid requesting-code-review` or `/review` for PR coordination
+- **receiving-code-review**: `/droid receiving-code-review` or `/handle-review` for technical feedback evaluation
+- **finishing-a-development-branch**: `/droid finishing-a-development-branch` or `/finish-branch` for branch completion
+
+### Advanced Debugging Skills
+- **condition-based-waiting**: `/droid condition-based-waiting` or `/condition-wait` for test timing issues
+- **defense-in-depth**: `/droid defense-in-depth` or `/defense-in-depth` for multi-layer validation
+- **root-cause-tracing**: `/droid root-cause-tracing` for backward bug investigation
+- **dispatching-parallel-agents**: `/droid dispatching-parallel-agents` or `/parallel` for concurrent debugging
+
+### Development Workflow Skills
+- **using-git-worktrees**: `/droid using-git-worktrees` or `/worktree` for isolated development
+- **subagent-driven-development**: `/droid subagent-driven-development` or `/subdev` for parallel task execution
+
+### Testing & Quality Skills
+- **testing-anti-patterns**: `/droid testing-anti-patterns` or `/anti-patterns` for test quality
+- **testing-skills-with-subagents**: `/droid testing-skills-with-subagents` or `/test-skills` for skill validation
+
+### Meta-Skills
+- **writing-skills**: `/droid writing-skills` or `/write-droid` for creating new skills
+- **sharing-skills**: `/droid sharing-skills` or `/share` for contributing upstream
+
+### Gateway Skills (Mandatory)
+- **using-droids**: `/droid using-droids` or `/droids` - ALWAYS start here for task analysis
+- **skill-checker**: `/droid skill-checker` - Automatic routing to applicable droids
+
+### Workflow Rules
+1. **ALWAYS** run `/droid using-droids` first for task analysis
+2. Follow skill-checker routing recommendations
+3. Use TodoWrite for all checklist items
+4. Complete all checkpoints before declaring done
+
+## Security & Configuration
+
+- **Environment variables**: List key env vars and their purposes
+- **API endpoints**: Critical endpoints and authentication
+- **Sensitive data**: How to handle secrets/keys
+
+## Gotchas & Common Issues
+
+- [Gotcha 1]: [explanation and solution]
+- [Gotcha 2]: [explanation and solution]
+- [Testing note]: Any special testing considerations
+
+## Git Workflow
+
+1. **Branch naming**: `${type}/${description}` (e.g., `feature/auth-login`)
+2. **Commit conventions**: Follow project's commit message format
+3. **Pull request requirements**: 
+   - All tests pass (`[test-command]`)
+   - Lint checks pass (`[lint-command]`)
+   - Use `requesting-code-review` droid for significant changes
+
+## Conventions & Patterns
+
+### Code Style
+- **Formatting**: [linter config, formatting rules]
+- **TypeScript/JavaScript**: [specific rules if applicable]
+- **Python**: [specific rules if applicable]
+- **Other languages**: [framework-specific conventions]
+
+### File Organization
+- **Component files**: [naming pattern and location]
+- **Test files**: [location and naming conventions]
+- **Utility functions**: [where to place shared code]
+
+### Testing Strategy
+- **Unit tests**: [framework and location]
+- **Integration tests**: [when and where to use]
+- **End-to-end tests**: [framework and coverage targets]
+- **Coverage requirements**: [minimum coverage percentage]
+
+## External Services
+
+List any external dependencies:
+- **[Service 1]**: [purpose and configuration]
+- **[Service 2]**: [purpose and configuration]
+- **[Service 3]**: [purpose and configuration]
+
+## Documentation
+
+- **API docs**: [location and format]
+- **README updates**: When and how to update
+- **Code comments**: Requirements for inline documentation
