@@ -6,22 +6,33 @@
 **Build System:** [npm/yarn/pip/etc]
 
 ## Mandatory Skills
+- **using-droids**: Must run first for task analysis and droid discovery
 - **test-driven-development**: All feature implementation and bug fixes
 - **verification-before-completion**: Before any commits or pull requests
 - **systematic-debugging**: For any bug investigation or unexpected behavior
 
-## Recommended Skills
+## Recommended Skills (Core)
 - **brainstorming**: For new features, architecture changes, complex implementations
 - **writing-plans**: For multi-step tasks and major features
-- **code-reviewer**: After completing significant work items
+- **requesting-code-review**: After completing significant work items
+- **receiving-code-review**: When evaluating feedback on your work
 - **using-git-worktrees**: For feature development and experimental work
+- **executing-plans**: For batch execution of planned tasks
+
+## Advanced Skills (Specialized)
+- **condition-based-waiting**: For eliminating flaky tests and race conditions
+- **defense-in-depth**: For data validation and security implementations
+- **writing-skills**: For creating new droids and process documentation
+- **subagent-driven-development**: For parallel task execution and independent verification
 
 ## Workflow Rules
-1. **Always check skill-checker** before starting any task
-2. **Use indicated skills** for corresponding work types  
-3. **Complete all checklists** before proceeding to next step
-4. **Validate completion** before marking work as done
-5. **Document designs** before implementation
+1. **Always use using-droids first** for task analysis and droid discovery
+2. **Follow skill-checker recommendations** for mandatory skills
+3. **Use indicated skills** for corresponding work types  
+4. **Complete all checklists** before proceeding to next step
+5. **Validate completion** before marking work as done
+6. **Document designs** before implementation
+7. **Create TodoWrite todos** for all checklist items
 
 ## Build Commands
 ```bash

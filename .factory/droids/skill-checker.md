@@ -22,26 +22,58 @@ Enforces the superpowers principle: "If you think there is even a 1% chance a sk
 - **test-driven-development**: Any code implementation, feature additions, bug fixes
 - **verification-before-completion**: Before commits, PRs, or declaring work done
 - **systematic-debugging**: For any investigation of errors, bugs, unexpected behavior
+- **using-droids**: Must run first for task analysis and droid discovery
 
-### Task-Specific
+### Task-Specific (Core)
 - **brainstorming**: New features, architecture, design decisions
 - **writing-plans**: Complex implementations, multi-step tasks
-- **code-reviewer**: After completing significant work
+- **requesting-code-review**: After completing significant work
+- **receiving-code-review**: When evaluating feedback
 - **using-git-worktrees**: Feature development that needs isolation
+- **executing-plans**: Batch execution of planned tasks
+
+### Task-Specific (Advanced)
+- **condition-based-waiting**: Tests with timeouts, race conditions, flaky behavior
+- **defense-in-depth**: Data validation bugs, security implementations, robust systems
+- **writing-skills**: Creating new droids, editing existing droids, documentation
+- **subagent-driven-development**: Parallel task execution, independent verification
 
 ## Enforcement Logic
 ```yaml
+# ALWAYS run first
+using-droids: mandatory gateway for all tasks
+
+# Code Implementation
 if task involves "implement", "add", "create", "fix":
     enforce: "test-driven-development"
     
+# Debugging
 if task involves "bug", "error", "broken", "failing":
     enforce: "systematic-debugging"
     
+# Planning & Design
 if task involves "design", "plan", "architecture":
     enforce: "brainstorming"
     
+# Testing Issues
+if task involves "timeout", "race condition", "flaky", "timing":
+    enforce: "condition-based-waiting"
+    
+# Robustness & Security
+if task involves "validation", "security", "defense", "robust":
+    enforce: "defense-in-depth"
+    
+# Documentation Creation
+if task involves "droid", "skill", "documentation", "process":
+    enforce: "writing-skills"
+    
+# Quality Gates
 if task involves "review", "check", "validate":
     enforce: "verification-before-completion"
+    
+# Parallel Work
+if task involves "parallel", "independent", "subagent":
+    enforce: "subagent-driven-development"
 ```
 
 ## Usage
