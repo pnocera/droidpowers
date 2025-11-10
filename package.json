@@ -1,0 +1,35 @@
+{
+  "name": "droidpowers",
+  "version": "1.0.0",
+  "description": "Install Droidpowers Factory AI skills system in any project",
+  "main": "src/installer.js",
+  "bin": {
+    "droidpowers": "bin/droidpowers"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "prepublishOnly": "node test/test.js"
+  },
+  "keywords": [
+    "ai",
+    "claude",
+    "factory",
+    "skills",
+    "development",
+    "cli"
+  ],
+  "author": "Droidpowers",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "templates/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/droidpowers.git"
+  }
+}
