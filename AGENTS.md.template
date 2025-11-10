@@ -1,80 +1,127 @@
-# Project Skills Configuration
+# [Project Name]
 
-## Project Overview
-**Project Type:** [React/Node.js/Python/etc]
-**Primary Language:** [JavaScript/TypeScript/Python/etc]
+## Core Commands
+
+• Install dependencies: `[install-command]`
+• Type-check and lint: `[lint-command]` or use `[lint-fix-command]` to auto-fix
+• Run test suite: `[test-command]`
+• Run single test: `[single-test-command] <path>`
+• Start development: `[dev-command]`
+• Build for production: `[build-command]`
+
+## Architecture Overview
+
+This is a [brief project description].
+
+**Project Type:** [React/Node.js/Python/etc]  
+**Primary Language:** [JavaScript/TypeScript/Python/etc]  
 **Build System:** [npm/yarn/pip/etc]
 
-## Mandatory Skills
-- **using-droids**: Must run first for task analysis and droid discovery
-- **test-driven-development**: All feature implementation and bug fixes
-- **verification-before-completion**: Before any commits or pull requests
-- **systematic-debugging**: For any bug investigation or unexpected behavior
+### Project Layout
 
-## Recommended Skills (Core)
-- **brainstorming**: For new features, architecture changes, complex implementations
-- **writing-plans**: For multi-step tasks and major features
-- **requesting-code-review**: After completing significant work items
-- **receiving-code-review**: When evaluating feedback on your work
-- **using-git-worktrees**: For feature development and experimental work
-- **executing-plans**: For batch execution of planned tasks
-
-## Advanced Skills (Specialized)
-- **condition-based-waiting**: For eliminating flaky tests and race conditions
-- **defense-in-depth**: For data validation and security implementations
-- **writing-skills**: For creating new droids and process documentation
-- **subagent-driven-development**: For parallel task execution and independent verification
-
-## Workflow Rules
-1. **Always use using-droids first** for task analysis and droid discovery
-2. **Follow skill-checker recommendations** for mandatory skills
-3. **Use indicated skills** for corresponding work types  
-4. **Complete all checklists** before proceeding to next step
-5. **Validate completion** before marking work as done
-6. **Document designs** before implementation
-7. **Create TodoWrite todos** for all checklist items
-
-## Build Commands
-```bash
-# Install dependencies
-[install-command]
-
-# Run tests
-[test-command]
-
-# Build project
-[build-command]
-
-# Lint code
-[lint-command]
 ```
-
-## Architecture
-### Directory Structure
-```
-[describe key directories and their purposes]
+[describe key directories]
+├─ [directory1] → [purpose]
+├─ [directory2] → [purpose]
+└─ [directory3] → [purpose]
 ```
 
 ### Key Components
-- [Component 1]: [purpose and location]
-- [Component 2]: [purpose and location]
-- [Component 3]: [purpose and location]
+- **[Component 1]**: [location and purpose]
+- **[Component 2]**: [location and purpose]
+- **[Component 3]**: [location and purpose]
 
-## Testing Strategy
-- **Unit Tests:** [location and framework]
-- **Integration Tests:** [location and framework]  
-- **End-to-End Tests:** [location and framework]
-- **Coverage Target:** [percentage or requirement]
+## Build & Test
 
-## Development Workflow
-1. Create feature branch from main
-2. Use test-driven-development for implementation
-3. Run verification-before-completion before commits
-4. Create pull request with code-reviewer
-5. Address feedback and iterate
+All commands should be run from the project root.
 
-## Team Conventions
-- **Commit Format:** [conventional commits or other format]
-- **Branch Naming:** [pattern for feature branches]
-- **Code Style:** [linter config, formatting rules]
-- **Documentation:** [where and how to document]
+```bash
+# Development
+[install-command]          # Install all dependencies
+[dev-command]              # Start development server
+[test-command]             # Run full test suite
+[single-test-command]<path> # Run specific test file
+
+# Production
+[build-command]            # Build for production 
+[lint-command]             # Check code quality
+[lint-fix-command]         # Auto-fix style issues
+```
+
+## Droidpowers Integration
+
+### Mandatory Workflows
+**All tasks must start with:**
+`/droid using-droids` - Required first step for task analysis
+
+### Core Skills (Always Applicable)
+- **test-driven-development**: `/droid test-driven-development` or `/tdd` for any code implementation
+- **verification-before-completion**: `/droid verification-before-completion` or `/verify` before commits
+- **systematic-debugging**: `/droid systematic-debugging` or `/debug` for bug investigation
+
+### Context-Specific Skills
+- **brainstorming**: `/droid brainstorming` or `/brainstorm` for new features/architecture
+- **condition-based-waiting**: `/droid condition-based-waiting` for test timing issues
+- **defense-in-depth**: `/droid defense-in-depth` for validation/security
+- **writing-plans**: `/droid writing-plans` or `/plan` for complex implementations
+- **requesting-code-review**: `/droid requesting-code-review` or `/review` for PR coordination
+- **using-git-worktrees**: `/droid using-git-worktrees` or `/worktree` for isolated development
+
+### Workflow Rules
+1. **ALWAYS** run `/droid using-droids` first for task analysis
+2. Follow skill-checker routing recommendations
+3. Use TodoWrite for all checklist items
+4. Complete all checkpoints before declaring done
+
+## Security & Configuration
+
+- **Environment variables**: List key env vars and their purposes
+- **API endpoints**: Critical endpoints and authentication
+- **Sensitive data**: How to handle secrets/keys
+
+## Gotchas & Common Issues
+
+- [Gotcha 1]: [explanation and solution]
+- [Gotcha 2]: [explanation and solution]
+- [Testing note]: Any special testing considerations
+
+## Git Workflow
+
+1. **Branch naming**: `${type}/${description}` (e.g., `feature/auth-login`)
+2. **Commit conventions**: Follow project's commit message format
+3. **Pull request requirements**: 
+   - All tests pass (`[test-command]`)
+   - Lint checks pass (`[lint-command]`)
+   - Use `requesting-code-review` droid for significant changes
+
+## Conventions & Patterns
+
+### Code Style
+- **Formatting**: [linter config, formatting rules]
+- **TypeScript/JavaScript**: [specific rules if applicable]
+- **Python**: [specific rules if applicable]
+- **Other languages**: [framework-specific conventions]
+
+### File Organization
+- **Component files**: [naming pattern and location]
+- **Test files**: [location and naming conventions]
+- **Utility functions**: [where to place shared code]
+
+### Testing Strategy
+- **Unit tests**: [framework and location]
+- **Integration tests**: [when and where to use]
+- **End-to-end tests**: [framework and coverage targets]
+- **Coverage requirements**: [minimum coverage percentage]
+
+## External Services
+
+List any external dependencies:
+- **[Service 1]**: [purpose and configuration]
+- **[Service 2]**: [purpose and configuration]
+- **[Service 3]**: [purpose and configuration]
+
+## Documentation
+
+- **API docs**: [location and format]
+- **README updates**: When and how to update
+- **Code comments**: Requirements for inline documentation
