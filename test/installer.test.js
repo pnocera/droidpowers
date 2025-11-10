@@ -38,4 +38,10 @@ async function testInstall() {
   }
 }
 
-testInstall().catch(console.error);
+// Export test function for use in test runner
+module.exports = { testInstall };
+
+// Run test if this file is executed directly
+if (require.main === module) {
+  testInstall().catch(console.error);
+}

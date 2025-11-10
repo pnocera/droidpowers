@@ -24,4 +24,10 @@ async function testCopyFile() {
   }
 }
 
-testCopyFile().catch(console.error);
+// Export test function for use in test runner
+module.exports = { testCopyFile };
+
+// Run test if this file is executed directly
+if (require.main === module) {
+  testCopyFile().catch(console.error);
+}
