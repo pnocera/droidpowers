@@ -98,7 +98,7 @@ Your human partner's specific instructions describe WHAT to do, not HOW.
 - **verification-before-completion** - Pre-commit validation and quality gates
 - **writing-skills** - TDD for droid creation documentation
 
-### Advanced Skills (additional 7)
+### Advanced Skills (additional 13)
 - **condition-based-waiting** - Eliminates flaky tests with condition polling
 - **defense-in-depth** - Multi-layer validation to make bugs impossible
 - **writing-plans** - Comprehensive implementation planning
@@ -106,6 +106,13 @@ Your human partner's specific instructions describe WHAT to do, not HOW.
 - **requesting-code-review** - Code review dispatch and coordination
 - **receiving-code-review** - Technical evaluation of feedback
 - **using-git-worktrees** - Isolated development environments
+- **subagent-driven-development** - Parallel task execution with independent agents
+- **root-cause-tracing** - Systematic backward tracing to find original problem sources
+- **finishing-a-development-branch** - Integration workflow completion (merge, PR, cleanup)
+- **dispatching-parallel-agents** - Concurrent investigation of independent failures
+- **testing-anti-patterns** - Prevents common testing mistakes and production pollution
+- **testing-skills-with-subagents** - Validates skills using RED-GREEN-REFACTOR process
+- **sharing-skills** - Contribute skills back to upstream repositories
 
 ## Finding the Right Droid
 

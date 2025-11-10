@@ -7,7 +7,7 @@
 3. **Start** with `/droid using-droids` before any task
 4. **Follow** automatic skill routing recommendations
 
-## Complete Droid Reference (15 Droids)
+## Complete Droid Reference (21 Droids)
 
 ### Gateway Droids (Always use first)
 - `/droid using-droids` - Mandatory task analysis and droid discovery
@@ -29,8 +29,14 @@
 - `/droid receiving-code-review` - Technical evaluation of feedback
 - `/droid using-git-worktrees` - Isolated development environments
 - `/droid subagent-driven-development` - Parallel task execution
+- `/droid root-cause-tracing` - Deep error backward tracing through call stack
+- `/droid finishing-a-development-branch` - Integration workflow completion (merge, PR, cleanup)
+- `/droid dispatching-parallel-agents` - Concurrent investigation of independent failures
+- `/droid testing-anti-patterns` - Prevent testing mistakes and production pollution
+- `/droid testing-skills-with-subagents` - Validate skills using RED-GREEN-REFACTOR process
+- `/droid sharing-skills` - Contribute skills back to upstream repositories
 
-## Complete Command Reference (14 Commands)
+## Complete Command Reference (20 Commands)
 
 All commands are accessible via Factory AI CLI:
 
@@ -53,6 +59,14 @@ All commands are accessible via Factory AI CLI:
 - `/defense-in-depth` - Implement robust validation
 - `/write-droid` - Create new droids following TDD
 - `/droids` - Learn proper droid usage and discovery
+
+### New Advanced Commands
+- `/root-cause-tracing` - Deep error backward tracing through call stack
+- `/finish-branch` - Complete development branch integration workflow
+- `/parallel` - Dispatch parallel agents for independent failures
+- `/anti-patterns` - Prevent testing anti-patterns and production pollution
+- `/test-skills` - Validate skills using RED-GREEN-REFACTOR process
+- `/share` - Contribute skills back to upstream repositories
 
 ## Example Workflows
 

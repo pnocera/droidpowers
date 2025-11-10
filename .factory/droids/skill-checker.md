@@ -37,6 +37,12 @@ Enforces the superpowers principle: "If you think there is even a 1% chance a sk
 - **defense-in-depth**: Data validation bugs, security implementations, robust systems
 - **writing-skills**: Creating new droids, editing existing droids, documentation
 - **subagent-driven-development**: Parallel task execution, independent verification
+- **root-cause-tracing**: Deep errors requiring backward tracing through call stack
+- **finishing-a-development-branch**: Complete implementation needing integration decisions
+- **dispatching-parallel-agents**: 3+ independent failures requiring concurrent investigation
+- **testing-anti-patterns**: Writing tests, adding mocks, preventing test-only production methods
+- **testing-skills-with-subagents**: Validating skills before deployment via subagent testing
+- **sharing-skills**: Contributing developed skills upstream via pull requests
 
 ## Enforcement Logic
 ```yaml
@@ -74,6 +80,30 @@ if task involves "review", "check", "validate":
 # Parallel Work
 if task involves "parallel", "independent", "subagent":
     enforce: "subagent-driven-development"
+    
+# Deep Error Investigation  
+if task involves "trace", "deep error", "call stack", "origin":
+    enforce: "root-cause-tracing"
+    
+# Branch Completion
+if task involves "merge", "finish", "complete branch", "integration":
+    enforce: "finishing-a-development-branch"
+    
+# Multiple Independent Failures
+if task involves "multiple failures", "independent problems", "concurrent investigation":
+    enforce: "dispatching-parallel-agents"
+    
+# Testing Quality
+if task involves "anti-patterns", "test quality", "mocking", "test-only methods":
+    enforce: "testing-anti-patterns"
+    
+# Skill Validation
+if task involves "validate skills", "test skills", "skill robustness":
+    enforce: "testing-skills-with-subagents"
+    
+# Contribution/Upstream
+if task involves "contribute", "upstream", "pull request", "share skills":
+    enforce: "sharing-skills"
 ```
 
 ## Usage
