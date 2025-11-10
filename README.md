@@ -1,4 +1,4 @@
-# Droidpowers
+![Droidpowers Overview](assets/droidpowers.jpg)
 
 Complete Factory AI adaptation of the superpowers skills system with 100% feature parity and enhanced discoverability.
 
