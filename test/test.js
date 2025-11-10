@@ -6,6 +6,10 @@ const fs = require('fs');
 const { testCopyFile } = require('./file-operations.test.js');
 const { testInstall } = require('./installer.test.js');
 
+// Import new test functions that we'll run separately
+const { testFullIntegration } = require('./integration.test.js');
+const { testCLI } = require('./cli.test.js');
+
 async function runTests() {
   console.log('🚀 Running Droidpowers Test Suite...\n');
   
@@ -27,6 +31,22 @@ async function runTests() {
         console.log('📦 Running installer tests...');
         await testInstall();
         console.log('✅ Installer tests passed\n');
+      }
+    },
+    {
+      name: 'Integration Tests',
+      test: async () => {
+        console.log('🔗 Running integration tests...');
+        await testFullIntegration();
+        console.log('✅ Integration tests passed\n');
+      }
+    },
+    {
+      name: 'CLI Tests',
+      test: async () => {
+        console.log('💻 Running CLI tests...');
+        await testCLI();
+        console.log('✅ CLI tests passed\n');
       }
     }
   ];
