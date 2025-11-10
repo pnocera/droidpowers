@@ -1,3 +1,10 @@
+---
+name: finishing-a-development-branch
+description: Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup
+model: claude-sonnet-4-5
+tools: [Task, Read, Write, Edit, Bash, TodoWrite]
+---
+
 # Finishing a Development Branch
 
 ## Overview
