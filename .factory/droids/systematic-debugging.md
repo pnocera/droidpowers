@@ -159,5 +159,5 @@ Always invoke systematic-debugging when encountering:
 - Integration issues
 
 **Integration with Other Skills:**
-- **root-cause-tracing** - REQUIRED when error is deep in call stack
+- **root-cause-tracing** - REQUIRED when error is deep in call stack, when Phase 1 Step 5 indicates need for deeper tracing, or when multiple layers of code are involved in the failure
 - **test-driven-development** - REQUIRED for creating failing test case (Phase 4, Step 1)
